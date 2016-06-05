@@ -1,0 +1,52 @@
+/****************************************************************************************************
+*   Stanford Theming File
+*
+*   Contains all the theme color definitions for the Stanford Open Source MOOC Project
+*
+****************************************************************************************************/
+
+//-----------------
+//  Color variables (from Stanford palette unless noted)
+//-----------------
+$homepage-bg-image: url('../themes/gotoclass/images/sunrise.jpg');
+$video-thumb-url: '../themes/default/images/edx.png';
+//-----------------
+//  Font Assignment
+//-----------------
+
+$theme-sans-font: 'Shabnam';
+$sans-serif: $theme-sans-font, $sans-serif;
+$body-font-family: 'Shabnam';
+
+$theme-serif-font: 'Crimson Text';
+$serif: $theme-serif-font, $serif;
+
+
+//-----------------
+// Override CSS
+//-----------------
+html,body {
+
+}
+
+//-----------------
+// Shabnam Font
+//-----------------
+
+@font-face {
+  font-family: Shabnam;
+  src: url('../themes/gotoclass/fonts/Shabnam.eot');
+  src: url('../themes/gotoclass/fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('../themes/gotoclass/fonts/Shabnam.woff') format('woff'),
+       url('../themes/gotoclass/fonts/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('../themes/gotoclass/fonts/Shabnam-Bold.eot');
+  src: url('../themes/gotoclass/fonts/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../themes/gotoclass/fonts/Shabnam-Bold.woff') format('woff'),
+       url('../themes/gotoclass/fonts/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
