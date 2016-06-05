@@ -25,9 +25,13 @@ $serif: $theme-serif-font, $serif;
 //-----------------
 // Override CSS
 //-----------------
+* {
+  font-family: Shabnam !important;
+}
 html,body {
   font-family: Shabnam !important;
 }
+
 
 //-----------------
 // Shabnam Font
